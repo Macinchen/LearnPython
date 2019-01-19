@@ -1,4 +1,4 @@
-# input数据的转换
+# input数据的转换以及if判断
 
 s = input("请输入您的出生年份：")
 year = int(s)
