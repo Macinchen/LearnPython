@@ -4,6 +4,13 @@
 
 abs() #求绝对值的函数abs
 max() #求最大值
-int() #数据类型转换
+int() #转换数据类型为整型
 hex() #把整数转换为十六进制数
 
+# 自定义函数：
+
+def my_abs(x):
+	if x >= 0:
+		return x
+	else:
+		return -x
